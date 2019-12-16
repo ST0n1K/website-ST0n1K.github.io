@@ -1,0 +1,227 @@
+.navbar {
+    background-color: #872c38!important;
+}
+.nav-main.navbar li:nth-child(1) a, .nav-main.navbar li:nth-child(2) a, .nav-main.navbar li:nth-child(3) a, .nav-main.navbar li:nth-child(4) a, .nav-main.navbar li:nth-child(5) a  {
+    font-size: 36px;
+    font-family: "Candara";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -webkit-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -ms-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    z-index: 277;
+}
+
+.nav-main.navbar li:nth-child(6) a {
+    font-size: 36px;
+    font-family: "Candara";
+    background-color: #6e1621;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -webkit-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -ms-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+}
+.nav-main.navbar li:nth-child(5) a {
+    background-color: #fff;
+    color: #6e1621;
+    font-size: 32px;
+    width: 500px;
+}
+
+.nav-main.navbar li:nth-child(1):hover a, .nav-main.navbar li:nth-child(2):hover a, .nav-main.navbar li:nth-child(3):hover a, .nav-main.navbar li:nth-child(4):hover a, .nav-main.navbar li:nth-child(1) a {
+    border-bottom: 5px solid #6e1621;
+}
+.nav-main.navbar li:nth-child(2) a, .nav-main.navbar li:nth-child(3) a, .nav-main.navbar li:nth-child(4) a {
+    border-bottom: 5px solid #872c38;
+}
+.nav-inner li a {
+    font-size: 36px;
+    font-family: "Candara";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+    -moz-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -webkit-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    -ms-transform: matrix( 0.56313066469983,0,0,0.50616034093782,0,0);
+    z-index: 322;
+}
+.nav-inner {
+    position: absolute;
+    top: 100px;
+    height: 42px;
+}
+.container hr {
+    position: relative;
+    top: 100px;
+    height: 6px;
+    background-color: #6e1621;
+}
+.nav-vertical li a {
+    font-size: 17px;
+    font-family: "Candara";
+    color: #6e1621;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix( 1.06807330890803,0,0,1.0569615019106,0,0);
+    -webkit-transform: matrix( 1.06807330890803,0,0,1.0569615019106,0,0);
+    -ms-transform: matrix( 1.06807330890803,0,0,1.0569615019106,0,0);
+    z-index: 317;
+    padding: 0;
+}
+.nav-vertical li:nth-child(2):hover, .nav-vertical li:nth-child(3):hover, .nav-vertical li:nth-child(4):hover, .nav-vertical li:nth-child(5):hover {
+    background-color: #fff;
+}
+.nav-vertical li:nth-child(1) a {
+    padding: 8px;
+    color: #fff;
+}
+.nav-vertical {
+    background-color: #6e1621!important;
+    position: relative;
+    z-index: 1;
+    top: 50px;
+    left: 20%;
+    padding: 0!important;
+    width: 160px;
+}
+.nav-vertical li {
+    background-color: #958b8c;
+    margin: 10px 0;
+    width: 170px;
+    left: -5px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+}
+.nav-vertical li:nth-child(1) {
+    background-color: #6e1621!important;
+    width: 164px;
+    left: -2px;
+}
+.bg-color {
+    background-color: #f0e7e8;
+    position: relative;
+    top: 100px;
+}
+.cards {
+    margin-bottom: 60px;
+    margin-right: 60px;
+}
+.cards img {
+    max-width: 120%!important;
+}
+.all-cards {
+    top: 50px;
+    left: -30px;
+}
+.container {
+    padding: 15px 0!important;
+}
+.all-cards input {
+    position: absolute;
+    width: 180px;
+    height: 25px;
+    top: -40px;
+    background-color: #e3d2d4;
+    border: none;
+    border-radius: 0px;
+    font-size: 17px;
+    font-family: "Candara";
+    font-weight: bold;
+    line-height: 1.2;
+    -moz-transform: scale(1, 0.9);
+    -webkit-transform: scale(1, 0.9);
+    -ms-transform: scale(1, 0.9);
+    z-index: 299;
+}
+.navbar-toggler {
+    border-color: white!important;
+    color: white!important;
+}
+.navbar-toggler-icon {
+    
+}
+
+input::placeholder {
+    color: #fff!important;
+    opacity: 1;
+}
+@media screen and (max-width: 1024px){
+    .nav-main.navbar li a {
+        font-size: 18pt!important;
+    }
+    .nav-main.navbar li:nth-child(5) {
+        margin-left: 0!important;
+    }
+    .nav-main.navbar li:nth-child(4) {
+        margin-right: 0!important;
+    }
+    .nav-main.navbar li:nth-child(6) a {
+        white-space: nowrap;
+        margin-left: -70px;
+    }
+    .nav-main.navbar li:nth-child(7) img, .nav-main.navbar li:nth-child(8) img {
+        width: 180%!important;
+    }
+}
+@media screen and (max-width: 768px){
+    .nav-main.navbar li a {
+        font-size: 14pt!important;
+    }
+    .nav-main.navbar li:nth-child(5) a {
+        width: 200px!important;
+        margin-right: 20px;
+    }
+    .nav-main.navbar li:nth-child(4) {
+        margin-right: 0!important;
+    }
+    .nav-main.navbar li:nth-child(6) a {
+        white-space: nowrap;
+        margin-left: -70px;
+    }
+    .nav-main.navbar li:nth-child(7) img, .nav-main.navbar li:nth-child(8) img {
+        width: 100%!important;
+    }
+    .nav-inner li a {
+        font-size: 20pt!important;
+    }
+}
+@media screen and (max-width: 425px){
+    .nav-main.navbar li a {
+        font-size: 14pt!important;
+    }
+    .nav-main.navbar li:nth-child(5) a {
+        width: 200px!important;
+        margin-left: 25%;
+    }
+    .nav-main.navbar li:nth-child(4) a {
+        margin-left: 30%!important;
+    }
+    .nav-main.navbar li:nth-child(6) a {
+        white-space: nowrap;
+        margin-left: 1%;
+    }
+    .nav-main.navbar li:nth-child(7) img, .nav-main.navbar li:nth-child(8) img {
+        width: 10%!important;
+    }
+    .nav-inner li a {
+        font-size: 12pt!important;
+        white-space: nowrap;
+    }
+    .all-cards {
+        top: 400px;
+        margin-left: 10%;
+    }
+    .nav-vertical {
+        margin-left: 10%;
+    }
+}
